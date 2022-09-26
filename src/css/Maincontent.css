@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
+:root{
+    --neon: rgba(43, 255, 64, 1);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+main .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content .text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    padding: 20px;
+}
+
+main .content .karna-space{
+    color: var(--neon);
+    font-family: 'Playfair Display', serif !important;
+    /* font-size: 6vw; */
+    font-size: clamp(2rem, 6.9vw, 9rem);
+    font-weight: 600;
+}
+
+main .content .description{
+    color: rgba(229, 229, 229, 0.7);
+    font-size: 18px;
+}
+
+main .content button{
+    padding: 8px 40px;
+    border-radius: 6px;
+    background-color: var(--neon);
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid transparent;
+}
+
+main .content button:hover{
+    background-color: transparent;
+    border: 1px solid var(--neon);
+    color: var(--neon);
+}
+
+/* card */
+
+main .card{
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 110px;
+    row-gap: 30px;
+}
+
+main .card .card-component{
+    width: 284px;
+    height: 377px;
+    border: 1px solid white;
+}
+
+main .card .card-component img{
+    width: 100%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 5px;
+    background-color: rgba(21, 21, 21, 0.6);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.card-body .title{
+    color: white;
+    font-size: 24px;
+}
+
+.card-body small{
+    color: white;
+    font-size: 8px;
+    font-weight: 300;
+}
+
+.card-body p{
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px;
+}

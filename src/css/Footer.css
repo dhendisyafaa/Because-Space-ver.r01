@@ -1,0 +1,101 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(21, 21, 21, 0.6);
+    flex-wrap: wrap;
+}
+
+footer .badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer .badge p{
+    font-family: 'Playfair Display', serif !important;
+    color: var(--neon);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+footer .link-footer-wrapper{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-grow: 2;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer .link-footer-wrapper .link-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .link-footer-wrapper .link-footer p{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--neon);
+}
+
+footer .link-footer-wrapper .link-footer .nav-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .link-footer-wrapper .link-footer .nav-footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+footer .contact{
+    flex-grow: 1;
+    padding: 15px;
+}
+
+footer .contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .contact form label{
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+footer .contact form textarea{
+    border: 2px solid var(--neon);
+    border-radius: 6px;
+    background-color: transparent;
+    padding: 8px;
+    resize: none;
+    max-width: 341px;
+}
+
+footer .contact form textarea:focus{
+    border: 2px solid white;
+    color: white;
+}
+
+footer .contact form button{
+    color: white;
+    border: 1px solid var(--neon);
+    border-radius: 6px;
+    background-color: transparent;
+    max-width: 95px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+footer .contact form button:hover{
+    color: black;
+    background-color: var(--neon);
+}
